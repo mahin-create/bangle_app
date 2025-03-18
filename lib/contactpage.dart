@@ -33,7 +33,6 @@ class _ContactpageState extends State<Contactpage> {
           children: [
             TextField(
               controller: control,
-              keyboardType: TextInputType.phone,
               decoration: InputDecoration(
                 hintText: 'Enter the number',
                 focusedBorder: OutlineInputBorder(
